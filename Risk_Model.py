@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load('Risk_Model.ipynb')
 
-st.title("Healthcare Risk Statisfication App")
+st.title("Healthcare Risk Satisfaction App")
 
 age = st.number_input("Age", min_value=0)
 length_of_stay = st.number_input("Length of Stay (in days)", min_value=0.0)
